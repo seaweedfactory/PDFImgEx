@@ -50,8 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PDFImageExtract.Core\PDFImageExtract.Core\PDFImageExtract.Core.csproj">
-      <Project>{b872aa2d-a734-4e42-a8fa-deeea0f58940}</Project>
+    <ProjectReference Include="..\..\PDFImageExtract.Core\PDFImageExtract.Core\PDFImageExtract.Core\PDFImageExtract.Core.csproj">
+      <Project>{c7d4faf6-eddd-43e5-a950-99c059570c70}</Project>
       <Name>PDFImageExtract.Core</Name>
     </ProjectReference>
   </ItemGroup>
