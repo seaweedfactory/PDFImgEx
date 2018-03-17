@@ -20,6 +20,6 @@ Use another tool, like imagemagick, to do this:
 
 https://www.imagemagick.org
 
-For example, if .jp2 (JPEG 2000) files around created, use the following command to convert all files in the output directory to PNG files.
+For example, if .jp2 (JPEG 2000) files are created, use the following imagemagick command to convert all files in the output directory to PNG files.
 
 <i>magick mogrify -format png *.jp2</i>
