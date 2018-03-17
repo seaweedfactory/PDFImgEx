@@ -13,6 +13,11 @@ A command line tool for extracting image files from a PDF file.
 
 <b>-title:</b> Add an optional prefix to the output image files. Images files are normally named _Page_TotalImageCount.Format where <b>Page</b> is the page in the document, <b>TotalImageCount</b> is a squential count of images in the document and <b>Format</b> is the file format extension.
 
+<h2>Dependencies</h2>
+Requires the PDFImageExtract.Core library, which in turn requires iTextSharp 5.5.
+
+https://github.com/seaweedfactory/PDFImageExtract.Core
+
 <h2>File Conversion</h2>
 Images are written according to the format used in the pdf. 
 The resulting files often require conversion to be used in other programs.
